@@ -4,20 +4,20 @@ See also [free heroku alternatives](https://github.com/DmitryScaletta/free-herok
 
 Only free tiers
 
-| Name                | Type                   | Storage | Free Tier Limits (per month)  |
-| ------------------- | ---------------------- | ------- | ----------------------------- |
-| Supabase            | Postgres               | 500MB   | 5GB out                       |
-| MongoDB Atlas       | MongoDB                | 5GB     | 10GB in, 10GB out             |
-| Neon                | Serverless Postgres    | 512MB   | ?                             |
-| CockroachDB         | Serverless Postgres    | 10GB    | 50M Request Units             |
-| Xata                | Serverless Postgres    | -       | 15GB I/O+storage              |
-| Cloudflare D1       | Serverless D1 (SQLite) | 5GB     | 5M reads/day, 100k writes/day |
-| Turso               | LibSQL (SQLite)        | 9GB     | 1B reads, 25M writes          |
-| Astro DB            | LibSQL (SQLite)        | 1GB     | 1B reads, 1M writes           |
-| Vercel Postgres     | Serverless Postgres    | 256MB   | 60 hours compute time         |
-| Nile (private beta) | Serverless Postgres    | 10GB    | 2B reads, 20M writes          |
-| Upstash             | Serverless Redis       | 256MB   | 10k cmds/day, 50GB in/out     |
-| Deno KV             | Deno KV                | 1GB     | 450k reads, 300k writes       |
+| Name                                | Type                   | Storage | Free Tier Limits (per month)  |
+| ----------------------------------- | ---------------------- | ------- | ----------------------------- |
+| [Supabase](#supabase)               | Postgres               | 500MB   | 5GB out                       |
+| [MongoDB Atlas](#mongodb-atlas)     | MongoDB                | 5GB     | 10GB in, 10GB out             |
+| [Neon](#neon)                       | Serverless Postgres    | 512MB   | ?                             |
+| [CockroachDB](#cockroachdb)         | Serverless Postgres    | 10GB    | 50M Request Units             |
+| [Xata](#xata)                       | Serverless Postgres    | -       | 15GB I/O+storage              |
+| [Cloudflare D1](#cloudflare-d1)     | Serverless D1 (SQLite) | 5GB     | 5M reads/day, 100k writes/day |
+| [Turso](#turso)                     | LibSQL (SQLite)        | 9GB     | 1B reads, 25M writes          |
+| [Astro DB](#astro-db)               | LibSQL (SQLite)        | 1GB     | 1B reads, 1M writes           |
+| [Vercel Postgres](#vercel-postgres) | Serverless Postgres    | 256MB   | 60 hours compute time         |
+| [Nile](#nile) (private beta)        | Serverless Postgres    | 10GB    | 2B reads, 20M writes          |
+| [Upstash](#upstash)                 | Serverless Redis       | 256MB   | 10k cmds/day, 50GB in/out     |
+| [Deno KV](#deno-kv)                 | Deno KV                | 1GB     | 450k reads, 300k writes       |
 
 ## Supabase
 
