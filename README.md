@@ -7,6 +7,7 @@ Only free tiers
 | Name                                | Type                   | Storage | Free Tier Limits (per month)  |
 | ----------------------------------- | ---------------------- | ------- | ----------------------------- |
 | [Supabase](#supabase)               | Postgres               | 500MB   | 5GB out                       |
+| [Tembo](#tembo)                     | Postgres               | 10GB    | 1TB out                       |
 | [MongoDB Atlas](#mongodb-atlas)     | MongoDB                | 5GB     | 10GB in, 10GB out             |
 | [Neon](#neon)                       | Serverless Postgres    | 512MB   | ?                             |
 | [CockroachDB](#cockroachdb)         | Serverless Postgres    | 10GB    | 50M Request Units             |
@@ -26,13 +27,22 @@ Only free tiers
 * 2 Core shared CPU, 1 GB RAM
 * 2 active free projects, as many as you want paused projects (500MB storage per project)
 * Pausing after 1 week of inactivity
-* [PostgREST](https://supabase.com/docs/guides/api)
-* [pg_graphql](https://supabase.com/docs/guides/graphql)
+* [PostgREST](https://supabase.com/docs/guides/api), [pg_graphql](https://supabase.com/docs/guides/graphql)
 * Additional features
   * Auth: 50,000 monthly active users
   * Storage: 1GB, 50MB max size
   * Realtime: Postgres Changes, 200 Concurrent Peak Connections, 2M Messages/Month
   * Edge Functions: 500,000 Invocations, 10MB Script size, 10 Functions
+
+## Tembo
+
+[Pricing](https://tembo.io/pricing/)
+
+* 3 Free Instances
+* 0.25 vCPU & 1 GB Memory
+* Unlimited Reads/Writes
+* PostgREST, pg_graphql
+* [User Defined Applications](https://tembo.io/docs/tembo-cloud/application-services/custom) - deploy containers next to your Postgres instance
 
 ## MongoDB Atlas
 
