@@ -30,7 +30,7 @@ Only free tiers
 * [PostgREST](https://supabase.com/docs/guides/api), [pg_graphql](https://supabase.com/docs/guides/graphql)
 * Additional features
   * Auth: 50,000 monthly active users
-  * Storage: 1GB, 50MB max size
+  * Storage: 1GB, 50MB max file size
   * Realtime: Postgres Changes, 200 Concurrent Peak Connections, 2M Messages/Month
   * Edge Functions: 500,000 Invocations, 10MB Script size, 10 Functions
 
