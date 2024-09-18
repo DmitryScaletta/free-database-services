@@ -14,9 +14,8 @@ Only free tiers
 | [Xata](#xata)                       | Serverless Postgres    | -       | 15GB I/O+storage              |
 | [Cloudflare D1](#cloudflare-d1)     | Serverless D1 (SQLite) | 5GB     | 5M reads/day, 100k writes/day |
 | [Turso](#turso)                     | LibSQL (SQLite)        | 9GB     | 1B reads, 25M writes          |
-| [Astro DB](#astro-db)               | LibSQL (SQLite)        | 1GB     | 1B reads, 1M writes           |
 | [Vercel Postgres](#vercel-postgres) | Serverless Postgres    | 256MB   | 60 hours compute time         |
-| [Nile](#nile) (private beta)        | Serverless Postgres    | 10GB    | 2B reads, 20M writes          |
+| [Nile](#nile)                       | Serverless Postgres    | 10GB    | 2B reads, 20M writes          |
 | [Upstash](#upstash)                 | Serverless Redis       | 256MB   | 10k cmds/day, 50GB in/out     |
 | [Deno KV](#deno-kv)                 | Deno KV                | 1GB     | 450k reads, 300k writes       |
 
@@ -99,10 +98,6 @@ Only free tiers
 * Unlimited Embedded Replicas
 * Database Branching
 
-## Astro DB
-
-[Pricing](https://astro.build/db/)
-
 ## Vercel Postgres
 
 [Pricing](https://vercel.com/docs/storage/vercel-postgres/usage-and-pricing) | [Limits](https://vercel.com/docs/storage/vercel-postgres/limits)
@@ -118,7 +113,6 @@ Only free tiers
 
 [Pricing](https://www.thenile.dev/pricing)
 
-* Private beta
 * Limit of 10 databases
 * Up to 100 Tenants per workspace
 
