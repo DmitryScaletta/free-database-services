@@ -15,7 +15,7 @@ Only free tiers
 | [Cloudflare D1](#cloudflare-d1)     | Serverless D1 (SQLite) | 5GB     | 5M reads/day, 100k writes/day |
 | [Turso](#turso)                     | LibSQL (SQLite)        | 9GB     | 1B reads, 25M writes          |
 | [Vercel Postgres](#vercel-postgres) | Serverless Postgres    | 256MB   | 60 hours compute time         |
-| [Nile](#nile)                       | Serverless Postgres    | 10GB    | 2B reads, 20M writes          |
+| [Nile](#nile)                       | Serverless Postgres    | 1GB     | 50M query tokens              |
 | [Upstash](#upstash)                 | Serverless Redis       | 256MB   | 10k cmds/day, 50GB in/out     |
 | [Deno KV](#deno-kv)                 | Deno KV                | 1GB     | 450k reads, 300k writes       |
 
@@ -113,8 +113,12 @@ Only free tiers
 
 [Pricing](https://www.thenile.dev/pricing)
 
-* Limit of 10 databases
-* Up to 100 Tenants per workspace
+* Query tokens are abstract units of CPU and memory used when queries are executed on the serverless compute
+  * Reading one row of 1024 bytes - ~680K query tokens for 1M queries
+  * Writing one row of 1024 bytes - ~1.46M query tokens for 1M queries
+  * Scanning 1000 rows of 1024 bytes, return 1 - ~9M query tokens for 1M queries
+* Unlimited number of databases
+* Unlimited number of tenant DBs
 
 ## Upstash
 
