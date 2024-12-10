@@ -8,6 +8,7 @@ Only free tiers
 | ----------------------------------- | ---------------------- | ------- | ----------------------------- |
 | [Supabase](#supabase)               | Postgres               | 500MB   | 5GB out                       |
 | [Tembo](#tembo)                     | Postgres               | 10GB    | 1TB out                       |
+| [EdgeDB](#edgedb)                   | EdgeDB (Postgres)      | 1GB     | 2GiB network egress           |
 | [MongoDB Atlas](#mongodb-atlas)     | MongoDB                | 5GB     | 10GB in, 10GB out             |
 | [Neon](#neon)                       | Serverless Postgres    | 512MB   | ?                             |
 | [CockroachDB](#cockroachdb)         | Serverless Postgres    | 10GB    | 50M Request Units             |
@@ -18,6 +19,7 @@ Only free tiers
 | [Nile](#nile)                       | Serverless Postgres    | 1GB     | 50M query tokens              |
 | [Upstash](#upstash)                 | Serverless Redis       | 256MB   | 10k cmds/day, 50GB in/out     |
 | [Deno KV](#deno-kv)                 | Deno KV                | 1GB     | 450k reads, 300k writes       |
+| [MotherDuck](#motherduck)           | DuckDB                 | 10GB    | 10 CU Hours Per Month         |
 
 ## Supabase
 
@@ -42,6 +44,16 @@ Only free tiers
 * Unlimited Reads/Writes
 * PostgREST, pg_graphql
 * [User Defined Applications](https://tembo.io/docs/tembo-cloud/application-services/custom) - deploy containers next to your Postgres instance
+
+## EdgeDB
+
+[Pricing](https://www.edgedb.com/pricing)
+
+* Free tier instance includes:
+  * 1/4 compute unit (1/16 vCPU, 1/2 GiB RAM)
+  * 1GiB disk space
+  * 2GiB network egress
+
 
 ## MongoDB Atlas
 
@@ -140,3 +152,8 @@ Only free tiers
 * 450,000 KV read units/mo (4kb)
 * 300,000 KV write units/mo (1kb)
 * 1 DB region
+
+## MotherDuck
+
+[Pricing](https://motherduck.com/product/pricing/)
+
