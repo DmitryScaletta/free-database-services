@@ -111,7 +111,7 @@ Only free tiers
 * Unlimited Embedded Replicas
 * Database Branching
 
-## SQLite Colud
+## SQLite Cloud
 
 [Pricing](https://sqlitecloud.io/pricing)
 
