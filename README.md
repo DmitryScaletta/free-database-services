@@ -4,23 +4,24 @@ See also [free heroku alternatives](https://github.com/DmitryScaletta/free-herok
 
 Only free tiers
 
-| Name                                | Type                   | Storage | Free Tier Limits (per month)  |
-| ----------------------------------- | ---------------------- | ------- | ----------------------------- |
-| [Supabase](#supabase)               | Postgres               | 500MB   | 5GB out                       |
-| [Tembo](#tembo)                     | Postgres               | 10GB    | 1TB out                       |
-| [EdgeDB](#edgedb)                   | EdgeDB (Postgres)      | 1GB     | 2GiB network egress           |
-| [MongoDB Atlas](#mongodb-atlas)     | MongoDB                | 5GB     | 10GB in, 10GB out             |
-| [Neon](#neon)                       | Serverless Postgres    | 512MB   | ?                             |
-| [CockroachDB](#cockroachdb)         | Serverless Postgres    | 10GB    | 50M Request Units             |
-| [Xata](#xata)                       | Serverless Postgres    | -       | 15GB I/O+storage              |
-| [Cloudflare D1](#cloudflare-d1)     | Serverless D1 (SQLite) | 5GB     | 5M reads/day, 100k writes/day |
-| [Turso](#turso)                     | LibSQL (SQLite)        | 9GB     | 1B reads, 25M writes          |
-| [SQLite Cloud](#sqlite-cloud)       | SQLite                 | 1GB     | ?                             |
-| [Vercel Postgres](#vercel-postgres) | Serverless Postgres    | 256MB   | 60 hours compute time         |
-| [Nile](#nile)                       | Serverless Postgres    | 1GB     | 50M query tokens              |
-| [Upstash](#upstash)                 | Serverless Redis       | 256MB   | 10k cmds/day, 50GB in/out     |
-| [Deno KV](#deno-kv)                 | Deno KV                | 1GB     | 450k reads, 300k writes       |
-| [MotherDuck](#motherduck)           | DuckDB                 | 10GB    | 10 CU Hours Per Month         |
+| Name                                            | Type                   | Storage | Free Tier Limits (per month)  |
+| ----------------------------------------------- | ---------------------- | ------- | ----------------------------- |
+| [Supabase](#supabase)                           | Postgres               | 500MB   | 5GB out                       |
+| [Tembo](#tembo)                                 | Postgres               | 10GB    | 1TB out                       |
+| [EdgeDB](#edgedb)                               | EdgeDB (Postgres)      | 1GB     | 2GiB network egress           |
+| [MongoDB Atlas](#mongodb-atlas)                 | MongoDB                | 5GB     | 10GB in, 10GB out             |
+| [Neon](#neon)                                   | Serverless Postgres    | 512MB   | ?                             |
+| [CockroachDB](#cockroachdb)                     | Serverless Postgres    | 10GB    | 50M Request Units             |
+| [Xata](#xata)                                   | Serverless Postgres    | -       | 15GB I/O+storage              |
+| [TiDB Cloud Serverless](#tidb-cloud-serverless) | Serverless MySQL       | 25GB*   | 250M Request Units            |
+| [Cloudflare D1](#cloudflare-d1)                 | Serverless D1 (SQLite) | 5GB     | 5M reads/day, 100k writes/day |
+| [Turso](#turso)                                 | LibSQL (SQLite)        | 9GB     | 1B reads, 25M writes          |
+| [SQLite Cloud](#sqlite-cloud)                   | SQLite                 | 1GB     | ?                             |
+| [Vercel Postgres](#vercel-postgres)             | Serverless Postgres    | 256MB   | 60 hours compute time         |
+| [Nile](#nile)                                   | Serverless Postgres    | 1GB     | 50M query tokens              |
+| [Upstash](#upstash)                             | Serverless Redis       | 256MB   | 10k cmds/day, 50GB in/out     |
+| [Deno KV](#deno-kv)                             | Deno KV                | 1GB     | 450k reads, 300k writes       |
+| [MotherDuck](#motherduck)                       | DuckDB                 | 10GB    | 10 CU Hours Per Month         |
 
 ## Supabase
 
@@ -94,6 +95,15 @@ Only free tiers
   * Image transformations (10k)
   * 250 AI-powered questions per workspace
   * Free plan users can request data restoration from a daily backup through our support team
+
+## TiDB Cloud Serverless
+
+[Pricing](https://www.pingcap.com/pricing/) | [Pricing Details](https://www.pingcap.com/tidb-serverless-pricing-details/) | [Limitations and Quotas](https://docs.pingcap.com/tidbcloud/serverless-limitations) | [MySQL Compatibility](https://docs.pingcap.com/tidbcloud/mysql-compatibility)
+
+* Up to 5 clusters for free tier account.
+* Monthly Free Quota for serverless clusters: store 5 GiB of row-based data, 5 GiB of columnar data, and consume 50 million RUs for one month.
+* 25 GB of row storage, 25 GB of column storage, and 250M Request Units (RUs) for free per month for each organization.
+* Unsupported MySQL features: Stored procedures and functions, Triggers, Events, User-defined functions (see [full list](https://docs.pingcap.com/tidbcloud/mysql-compatibility#unsupported-features))
 
 ## Cloudflare D1
 
