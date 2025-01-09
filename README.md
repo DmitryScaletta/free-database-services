@@ -15,6 +15,7 @@ Only free tiers
 | [Xata](#xata)                       | Serverless Postgres    | -       | 15GB I/O+storage              |
 | [Cloudflare D1](#cloudflare-d1)     | Serverless D1 (SQLite) | 5GB     | 5M reads/day, 100k writes/day |
 | [Turso](#turso)                     | LibSQL (SQLite)        | 9GB     | 1B reads, 25M writes          |
+| [SQLite Cloud](#sqlite-cloud)       | SQLite                 | 1GB     | ?                             |
 | [Vercel Postgres](#vercel-postgres) | Serverless Postgres    | 256MB   | 60 hours compute time         |
 | [Nile](#nile)                       | Serverless Postgres    | 1GB     | 50M query tokens              |
 | [Upstash](#upstash)                 | Serverless Redis       | 256MB   | 10k cmds/day, 50GB in/out     |
@@ -109,6 +110,16 @@ Only free tiers
 * Point in time restore (1 day)
 * Unlimited Embedded Replicas
 * Database Branching
+
+## SQLite Colud
+
+[Pricing](https://sqlitecloud.io/pricing)
+
+* Currently in beta
+* Up to 0.5 vCPUs
+* Up to 0.5 GB RAM
+* Cold starts after 3 days of inactivity
+* Unlimited Edge Functions, Unlimited Webhooks, Pub/Sub
 
 ## Vercel Postgres
 
