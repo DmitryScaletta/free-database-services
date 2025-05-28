@@ -7,7 +7,6 @@ Only free tiers
 | Name                                            | Type                   | Storage | Free Tier Limits (per month)  |
 | ----------------------------------------------- | ---------------------- | ------- | ----------------------------- |
 | [Supabase](#supabase)                           | Postgres               | 500MB   | 5GB out                       |
-| [Tembo](#tembo)                                 | Postgres               | 10GB    | 1TB out                       |
 | [EdgeDB](#edgedb)                               | EdgeDB (Postgres)      | 1GB     | 2GiB network egress           |
 | [MongoDB Atlas](#mongodb-atlas)                 | MongoDB                | 5GB     | 10GB in, 10GB out             |
 | [Neon](#neon)                                   | Serverless Postgres    | 512MB   | ?                             |
@@ -36,16 +35,6 @@ Only free tiers
   * Storage: 1GB, 50MB max file size
   * Realtime: Postgres Changes, 200 Concurrent Peak Connections, 2M Messages/Month
   * Edge Functions: 500,000 Invocations, 10MB Script size, 10 Functions
-
-## Tembo
-
-[Pricing](https://tembo.io/pricing/)
-
-* 3 Free Instances
-* 0.25 vCPU & 1 GB Memory
-* Unlimited Reads/Writes
-* PostgREST, pg_graphql
-* [User Defined Applications](https://tembo.io/docs/tembo-cloud/application-services/custom) - deploy containers next to your Postgres instance
 
 ## EdgeDB
 
