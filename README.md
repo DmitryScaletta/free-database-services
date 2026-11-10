@@ -21,6 +21,7 @@ Only free tiers
 | [Upstash](#upstash)                             | Serverless Redis       | 256MB   | 10k cmds/day, 50GB in/out     |
 | [Deno KV](#deno-kv)                             | Deno KV                | 1GB     | 450k reads, 300k writes       |
 | [MotherDuck](#motherduck)                       | DuckDB                 | 10GB    | 10 CU Hours Per Month         |
+| [Zenifra](#zenifra)                             | Postgres               | 1GB     | ?                             |
 
 ## Supabase
 
@@ -167,3 +168,13 @@ Only free tiers
 
 [Pricing](https://motherduck.com/product/pricing/)
 
+
+## Zenifra
+
+[Pricing](https://www.zenifra.com/en/pricing) | [Plans](https://docs.zenifra.com/en/docs/database/plans)
+
+* 1 free PostgreSQL per organization (db-free plan): 0.3 vCPU, 256MB RAM, 1GB fixed storage, up to 15 connections
+* Daily backup kept for 3 days
+* Also free: 1 Valkey Cache and 1 Valkey Queue
+* Not shut down for inactivity, no credit card required
+* Servers in Brazil (São Paulo). Sign-up requires a Brazilian CPF or CNPJ, a Brazilian mobile number and a Brazilian address
